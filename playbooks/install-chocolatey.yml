@@ -1,6 +1,6 @@
 ---
 - name: Install Chocolatey on Windows
-  hosts: windows_hosts
+  hosts: windows
   tasks:
     - name: Check if Chocolatey is installed
       win_command: choco -v
